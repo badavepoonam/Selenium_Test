@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c5af100-c752-4936-ab4d-080b579a000b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="4c5af100-c752-4936-ab4d-080b579a000b" name="Changes" comment="Test">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ExploreMore.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Basic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Basic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/VerifyPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/VerifyPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/VerifyWatchDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/VerifyWatchDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +40,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.Basic.executor": "Run",
+    "TestNG.ExploreMore.NavigateToExplore.executor": "Run",
+    "TestNG.ExploreMore.executor": "Run",
     "TestNG.LaunchBrowser.executor": "Run",
     "TestNG.VerifyPage.Register.executor": "Run",
     "TestNG.VerifyPage.ResidentLogin.executor": "Run",
@@ -64,12 +63,23 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.VerifyWatchDemo.AddDetails">
-    <configuration name="VerifyPage.Register" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.ExploreMore.NavigateToExplore">
+    <configuration name="ExploreMore" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Coding_Test" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="VerifyPage" />
-      <option name="METHOD_NAME" value="Register" />
+      <option name="MAIN_CLASS_NAME" value="ExploreMore" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExploreMore.NavigateToExplore" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Coding_Test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ExploreMore" />
+      <option name="METHOD_NAME" value="NavigateToExplore" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -82,18 +92,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="VerifyPage" />
       <option name="METHOD_NAME" value="ResidentLogin" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VerifyPage.verifyPageTitle" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Coding_Test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="VerifyPage" />
-      <option name="METHOD_NAME" value="verifyPageTitle" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -126,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ExploreMore.NavigateToExplore" />
+        <item itemvalue="TestNG.ExploreMore" />
         <item itemvalue="TestNG.VerifyWatchDemo.AddDetails" />
         <item itemvalue="TestNG.VerifyWatchDemo" />
         <item itemvalue="TestNG.VerifyPage.ResidentLogin" />
-        <item itemvalue="TestNG.VerifyPage.verifyPageTitle" />
-        <item itemvalue="TestNG.VerifyPage.Register" />
       </list>
     </recent_temporary>
   </component>
@@ -150,6 +148,27 @@
       <option name="presentableId" value="Default" />
       <updated>1709823398371</updated>
     </task>
+    <task id="LOCAL-00001" summary="Test">
+      <option name="closed" value="true" />
+      <created>1709890816593</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1709890816593</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Test">
+      <option name="closed" value="true" />
+      <created>1709890931031</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709890931031</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test" />
   </component>
 </project>
