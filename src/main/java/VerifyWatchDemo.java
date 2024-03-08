@@ -9,9 +9,9 @@ import org.testng.annotations.Test;
 public class VerifyWatchDemo {
 
     public WebDriver driver;
+
     @BeforeTest
-    public void LaunchBrowser()
-    {
+    public void LaunchBrowser() {
 
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\Poonam\\IdeaProjects\\Coding_Test\\chromedriver.exe");
         driver = new ChromeDriver();
@@ -20,8 +20,7 @@ public class VerifyWatchDemo {
     }
 
     @Test
-    public void verifyPageTitle()
-    {
+    public void verifyPageTitle() {
 
         driver.findElement(By.className("cookie-accept-button")).click();
         String expectedTitle = "Property Management Software | Entrata";
@@ -30,8 +29,7 @@ public class VerifyWatchDemo {
     }
 
     @Test
-    public void clickOnwatchDemo()
-    {
+    public void clickOnwatchDemo() {
         driver.findElement(By.className("header-desktop-buttons")).click();
         String expectedTitle = "Property Management Software | Entrata";
         String actualTitle = driver.getTitle();
@@ -39,8 +37,7 @@ public class VerifyWatchDemo {
     }
 
     @Test
-    public void AddDetails()
-    {
+    public void AddDetails() {
         driver.findElement(By.id("FirstName")).sendKeys("Test");
         driver.findElement(By.id("LastName")).sendKeys("User");
         driver.findElement(By.id("Email")).sendKeys("abc@entrata.com");

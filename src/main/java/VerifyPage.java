@@ -6,12 +6,12 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 
-public class VerifyPage  {
+public class VerifyPage {
 
     public WebDriver driver;
+
     @BeforeTest
-    public void LaunchBrowser()
-    {
+    public void LaunchBrowser() {
 
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\Poonam\\IdeaProjects\\Coding_Test\\chromedriver.exe");
         driver = new ChromeDriver();
@@ -20,8 +20,7 @@ public class VerifyPage  {
     }
 
     @Test
-    public void verifyPageTitle()
-    {
+    public void verifyPageTitle() {
 
         driver.findElement(By.className("cookie-accept-button")).click();
         String expectedTitle = "Property Management Software | Entrata";
@@ -30,8 +29,7 @@ public class VerifyPage  {
     }
 
     @Test
-    public void VerifySignIn()
-    {
+    public void VerifySignIn() {
         driver.findElement(By.className("outline-dark-button")).click();
 //        driver.findElement(By.className("cta-link-default")).click();
         String expectedTitle = "Entrata Sign In";
@@ -40,8 +38,7 @@ public class VerifyPage  {
     }
 
     @Test
-    public void ResidentLogin()
-    {
+    public void ResidentLogin() {
         driver.findElement(By.xpath("//a[text()='Resident Login']")).click();
         String expectedTitle = "Welcome to Resident Portal";
         String actualTitle = driver.getTitle();
