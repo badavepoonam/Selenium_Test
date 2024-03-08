@@ -5,12 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c5af100-c752-4936-ab4d-080b579a000b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Basic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Basic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/VerifyPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/VerifyPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/VerifyWatchDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/VerifyWatchDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -26,13 +38,109 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Basic.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.Basic.executor": "Run",
+    "TestNG.LaunchBrowser.executor": "Run",
+    "TestNG.VerifyPage.Register.executor": "Run",
+    "TestNG.VerifyPage.ResidentLogin.executor": "Run",
+    "TestNG.VerifyPage.VerifySignIn.executor": "Run",
+    "TestNG.VerifyPage.executor": "Run",
+    "TestNG.VerifyPage.verifyPageTitle.executor": "Debug",
+    "TestNG.VerifyWatchDemo.AddDetails.executor": "Run",
+    "TestNG.VerifyWatchDemo.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/Poonam/IdeaProjects/Coding_Test/src/main/java/org/example/Main.java"
+    "onboarding.tips.debug.path": "C:/Users/Poonam/IdeaProjects/Coding_Test/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.VerifyWatchDemo.AddDetails">
+    <configuration name="VerifyPage.Register" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Coding_Test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="VerifyPage" />
+      <option name="METHOD_NAME" value="Register" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VerifyPage.ResidentLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Coding_Test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="VerifyPage" />
+      <option name="METHOD_NAME" value="ResidentLogin" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VerifyPage.verifyPageTitle" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Coding_Test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="VerifyPage" />
+      <option name="METHOD_NAME" value="verifyPageTitle" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VerifyWatchDemo" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Coding_Test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="VerifyWatchDemo" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VerifyWatchDemo.AddDetails" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Coding_Test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="VerifyWatchDemo" />
+      <option name="METHOD_NAME" value="AddDetails" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.VerifyWatchDemo.AddDetails" />
+        <item itemvalue="TestNG.VerifyWatchDemo" />
+        <item itemvalue="TestNG.VerifyPage.ResidentLogin" />
+        <item itemvalue="TestNG.VerifyPage.verifyPageTitle" />
+        <item itemvalue="TestNG.VerifyPage.Register" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-11.0.22-corretto-11.0.22-4caba194b151-868cef46" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -43,16 +151,5 @@
       <updated>1709823398371</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
