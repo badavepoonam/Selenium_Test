@@ -18,6 +18,8 @@ public class VerifyWatchDemo {
         driver.get("https://www.entrata.com/");
         driver.manage().window().maximize();
     }
+
+    //Verify user is able to launch website & page title
     @Test
     public void verifyPageTitle() {
 
@@ -27,6 +29,7 @@ public class VerifyWatchDemo {
         Assert.assertEquals(actualTitle, expectedTitle);
     }
 
+    //verify user is able to navigate watch demo page
     @Test
     public void clickOnwatchDemo() {
         driver.findElement(By.className("header-desktop-buttons")).click();
@@ -35,6 +38,7 @@ public class VerifyWatchDemo {
         Assert.assertEquals(actualTitle, expectedTitle);
     }
 
+    //verify user is able to add the details in resective textfields
     @Test
     public void AddDetails() {
         driver.findElement(By.id("FirstName")).sendKeys("Test");
@@ -47,7 +51,6 @@ public class VerifyWatchDemo {
         driver.findElement(By.id("Title")).sendKeys("Software Engineer");
         Select name = new Select(driver.findElement(By.id("demoRequest")));
         name.selectByVisibleText("Resident");
-        driver.findElement(By.className("mktoButton")).click();
 
     }
 

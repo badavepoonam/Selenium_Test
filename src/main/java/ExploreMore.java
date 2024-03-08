@@ -22,6 +22,7 @@ public class ExploreMore {
         driver.get("https://www.entrata.com/");
         driver.manage().window().maximize();
     }
+    //Verify user is able to access explore page
     @Test
     public void NavigateToExplore()
     {

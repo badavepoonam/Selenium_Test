@@ -18,6 +18,7 @@ public class VerifyPage {
         driver.manage().window().maximize();
     }
 
+    //Verify user is able to launch wesite & verify title
     @Test
     public void verifyPageTitle() {
 
@@ -27,6 +28,7 @@ public class VerifyPage {
         Assert.assertEquals(actualTitle, expectedTitle);
     }
 
+    //verify user is able to navigate Sign In page
     @Test
     public void VerifySignIn() {
         driver.findElement(By.className("outline-dark-button")).click();
@@ -36,6 +38,7 @@ public class VerifyPage {
         Assert.assertEquals(actualTitle, expectedTitle);
     }
 
+    //Verify user is able to redirect ResidentLogin functionality
     @Test
     public void ResidentLogin() {
         driver.findElement(By.xpath("//a[text()='Resident Login']")).click();
