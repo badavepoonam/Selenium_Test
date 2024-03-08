@@ -9,7 +9,6 @@ import org.testng.annotations.Test;
 public class VerifyPage {
 
     public WebDriver driver;
-
     @BeforeTest
     public void LaunchBrowser() {
 
